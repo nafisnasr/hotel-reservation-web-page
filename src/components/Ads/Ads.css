@@ -1,0 +1,37 @@
+.ads {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ads-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+}
+.image-box {
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  align-items: flex-start;
+  direction: rtl;
+  justify-content: center;
+  background-size: cover;
+  cursor: pointer;
+  margin: 20px 0px;
+  transition: all 0.4s;
+}
+.image-box:hover {
+  transform: translateY(-8px);
+}
+.ads-box-1 {
+  background-image: url("../../../public/images/opt-pic1.jpg");
+  background-position-x: right;
+}
+.ads-box-2 {
+  background-position-x: right;
+  background-image: url("../../../public/images/opt-pic2.jpg");
+}

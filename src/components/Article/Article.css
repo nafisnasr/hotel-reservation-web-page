@@ -1,0 +1,20 @@
+.article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 20px 0px;
+  cursor: pointer;
+}
+.article-body {
+  direction: rtl;
+  margin-top: 10px;
+  width: 90%;
+}
+.article-text {
+  font-size: 14px;
+  color: #757474;
+}

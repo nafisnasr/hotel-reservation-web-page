@@ -1,0 +1,29 @@
+.title-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  direction: rtl;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  color: inherit;
+}
+.title-text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  justify-content: center;
+}
+.title-text-box .title {
+  font-weight: bold;
+}
+
+.title-text-box .detail {
+  font-size: 13px;
+  color: #5f5f5f;
+}
+.title-box .icon {
+  font-size: 30px;
+  font-weight: bold;
+  color: inherit;
+}

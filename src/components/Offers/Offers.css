@@ -1,0 +1,62 @@
+.offers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 20px 0px;
+}
+.offer-img-container {
+  width: 100%;
+  position: relative;
+}
+.offer-id {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  z-index: 1;
+  font-size: 13px;
+  color: #fff;
+  background-color: #dddddd86;
+  border-radius: 10px;
+  padding: 4px;
+}
+.offer-img-container img {
+  border-radius: 5px;
+  width: 100%;
+}
+.offer-text-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding-right: 10px;
+  width: 100%;
+  color: #000;
+}
+.offer-text-container .subtext {
+  font-size: 11px;
+}
+.price-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  direction: rtl;
+}
+.price-container .price {
+  font-size: 12px;
+}
+.reserve-btn {
+  padding: 5px 7px;
+  font-size: 11px;
+  border: none;
+  background-color: rgb(110, 235, 110);
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+}

@@ -1,0 +1,40 @@
+.register-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 150px;
+  padding: 8px;
+  background-color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-box span {
+  font-size: 14px;
+}
+.register-box .icon {
+  font-size: 20px;
+}
+.explore-box span {
+  margin-right: 5px;
+}
+.explore-box .icon {
+  font-size: 20px;
+}
+.logo-container img {
+  width: 45px;
+}
+.navbar-title-container{
+    direction: rtl;
+    display: flex;
+    align-items:right ;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.navbar-title-container .title{
+    color: orangered;
+}
+.navbar-title-container span{
+    font-size: 14px;
+}
